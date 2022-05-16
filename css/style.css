@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    max-width: 1450px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.start a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+#button{
+    background-color: dodgerblue;
+    padding: 5px 10px;
+    color: white;
+}
