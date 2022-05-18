@@ -78,9 +78,9 @@ header{
 
 .jumbo img{
     width: 580px;
-    height: 360px;
+    height: 335px;
     position: absolute;
-    top: 50px;
+    top: 35px;
     left: 350px;
 }
 
@@ -95,11 +95,12 @@ header{
 .text .arrow{
     margin-top: 40px;
     font-size: 40px;
+    color: black;
 }
 
 .business{
     max-width: 800px;
-    margin: 50px auto;
+    margin: 100px auto;
     padding-top: 60px;
     padding-left: 100px;
 }
@@ -260,7 +261,7 @@ h4{
     font-size: 15px;
 }
 
-.flex{
+.container-flex{
     display: flex;
     border: 1px solid grey;
     width: 630px;
@@ -317,7 +318,7 @@ h4{
 }
 
 .container-three{
-    padding-top: 80px;
+    padding-top: 100px;
     width: 900px;
     margin: auto;
 }
@@ -338,7 +339,7 @@ h4{
     margin-top: 20px;
 }
 
-.cinquecento{
+.container-c{
     padding-top: 100px;
     width: 750px;
     margin: auto;
@@ -348,74 +349,105 @@ h4{
      padding-top: 50px;
 }
 
-.container4{
+#container4{
     margin-top: 100px;
 }
 
 .group{
-    width: 1500px;
+    width: 100%;
     height: 500px;
-    margin: auto;
     display: flex;
 }
 
 .group1{
     display: flex;
-    width: calc(66.7% / 2);
+    width: calc(100% / 3);
     flex-wrap: wrap;
 }
 
 .subgroup1{
-    width: 250px;
+    width: calc(100% / 2);
     background-color: #88eb95;
     height: 250px;
+    position: relative;
+}
+
+.subgroup1:hover{
+    border: 20px solid  rgba(255, 255, 255, 0.5);;
+    cursor: pointer;
 }
 
 .subgroup1 img{
     width: 150px;
-    margin-left: 50px;
-    margin-top: 90px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
 }
 
 .subgroup2{
-    width: 250px;
+    width: calc(100% / 2);
     background-color: #700820;
     height: 250px;
+    position: relative;
+}
+
+.subgroup2:hover{
+    border: 20px solid  rgba(255, 255, 255, 0.5);;
+    cursor: pointer;
 }
 
 .subgroup2 img{
     width: 150px;
-    margin-left: 50px;
-    margin-top: 90px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
 }
 
 .subgroup3{
-    width: 250px;
+    width: calc(100% / 2);
     background-color: dodgerblue;
     height: 250px;
+    position: relative;
+}
+
+.subgroup3:hover{
+    border: 20px solid  rgba(255, 255, 255, 0.5);;
+    cursor: pointer;
 }
 
 .subgroup3 img{
     width: 150px;
-    margin-left: 50px;
-    margin-top: 90px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
 }
 
 .subgroup4{
-    width: 250px;
+    width: calc(100% / 2);
     background-color: #cf1717;
     height: 250px;
+    position: relative;
+}
+
+.subgroup4:hover{
+    border: 20px solid  rgba(255, 255, 255, 0.5);;
+    cursor: pointer;
 }
 
 .subgroup4 img{
     width: 150px;
-    margin-left: 50px;
-    margin-top: 90px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
 }
 
 .group2{
     background-color: whitesmoke;
-    width: 500px;
+    width: calc(100% / 3);
     padding: 50px;
 }
 
@@ -435,54 +467,199 @@ h4{
 
 .group3{
     display: flex;
-    width: calc(66.7% / 2);
+    width: calc(100% / 3);
     flex-wrap: wrap;
 }
 
 .subgroup5{
-    width: 250px;
+    width: calc(100% / 2);
     background-color: red;
     height: 250px;
+    position: relative;
+}
+
+.subgroup5:hover{
+    border: 20px solid  rgba(255, 255, 255, 0.5);;
+    cursor: pointer;
 }
 
 .subgroup5 img{
     width: 150px;
-    margin-left: 50px;
-    margin-top: 90px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
 }
 
 .subgroup6{
-    width: 250px;
+    width: calc(100% / 2);
     background-color: lightblue;
     height: 250px;
+    position: relative;
+}
+
+.subgroup6:hover{
+    border: 20px solid  rgba(255, 255, 255, 0.5);;
+    cursor: pointer;
 }
 
 .subgroup6 img{
     width: 150px;
-    margin-left: 50px;
-    margin-top: 90px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
 }
 
 .subgroup7{
-    width: 250px;
+    width: calc(100% / 2);
     background-color: blue;
     height: 250px;
+    position: relative;
+}
+
+.subgroup7:hover{
+    border: 20px solid  rgba(255, 255, 255, 0.5);;
+    cursor: pointer;
 }
 
 .subgroup7 img{
     width: 150px;
-    margin-left: 50px;
-    margin-top: 90px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
 }
 
 .subgroup8{
-    width: 250px;
+    width: calc(100% / 2);
     background-color: yellow;
     height: 250px;
+    position: relative;
+}
+
+.subgroup8:hover{
+    border: 20px solid  rgba(255, 255, 255, 0.5);;
+    cursor: pointer;
 }
 
 .subgroup8 img{
     width: 150px;
-    margin-left: 50px;
-    margin-top: 90px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.final-container{
+    background-color: lightblue;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.final-container h2{
+    color: #700820;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.button4{
+    padding: 5px 10px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    position: absolute;
+    left: 68%;
+    top: 37%;
+    transform: translate(-50% , -50%);
+}
+
+.questions{
+    width: 800px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.questions h2{
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.questions hr{
+    width: 900px;
+    margin: auto;
+}
+
+.questions h4{
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.arrow2{
+    color: black;
+}
+
+.lorem{
+    display: none;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.questions h4:hover .arrow2{
+    display: none;
+}
+
+.arrow3{
+    display: none;
+}
+
+.questions h4:hover .arrow3{
+    display: block;
+}
+
+.questions h4:hover .lorem{
+    display: block;
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    height: 500px;
+}
+
+.finish{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+footer hr{
+    padding-top: 80px;
+    border-top: black;
+    border-right: black;
+    border-left: black;
+    margin-left: 75px;
+}
+
+.world{
+    color: lightgrey;
+    padding-left: 75px;
+    padding-top: 40px;
+}
+
+.world a{
+    color: lightgrey;
 }
