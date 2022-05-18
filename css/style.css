@@ -23,7 +23,6 @@ header{
 .logo{
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .logo img{
@@ -40,7 +39,8 @@ header{
 
 .logo2 .drop{
     cursor: pointer;
-    
+    display: block;
+    padding-right: 10px;
 }
 
 .logo2:hover .drop{
@@ -49,9 +49,39 @@ header{
 
 .logo2 img{
     display: none;
+    background-color: whitesmoke;
+    z-index: 1;
+    padding: 5px;
+    width: 125px;
 }
 
 .logo2:hover img{
+    display: block;
+    padding-top: 50px;
+}
+
+.logo3 .drop{
+    cursor: pointer;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo3:hover .drop{
+    padding-top: 70px;
+}
+
+.logo3 img{
+    display: none;
+    background-color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+    z-index: 1;
+    padding: 5px;
+    width: 65px;
+}
+
+.logo3:hover img{
     display: block;
     padding-top: 50px;
 }
