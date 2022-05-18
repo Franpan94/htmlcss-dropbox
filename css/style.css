@@ -20,6 +20,12 @@ header{
     background-color: whitesmoke;
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .logo img{
     vertical-align: middle;
     margin-right: 10px;
@@ -30,6 +36,24 @@ header{
     color: black;
     margin: 10px;
     vertical-align: middle;
+}
+
+.logo2 .drop{
+    cursor: pointer;
+    
+}
+
+.logo2:hover .drop{
+    padding-top: 75px;
+}
+
+.logo2 img{
+    display: none;
+}
+
+.logo2:hover img{
+    display: block;
+    padding-top: 50px;
 }
 
 .link{
@@ -355,20 +379,19 @@ h4{
 
 .group{
     width: 100%;
-    height: 500px;
     display: flex;
 }
 
 .group1{
     display: flex;
     width: calc(100% / 3);
+    height: calc(100vw / 3);
     flex-wrap: wrap;
 }
 
 .subgroup1{
-    width: calc(100% / 2);
+    width: 50%;
     background-color: #88eb95;
-    height: 250px;
     position: relative;
 }
 
@@ -378,7 +401,7 @@ h4{
 }
 
 .subgroup1 img{
-    width: 150px;
+    width: 50%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -386,9 +409,8 @@ h4{
 }
 
 .subgroup2{
-    width: calc(100% / 2);
+    width: 50%;
     background-color: #700820;
-    height: 250px;
     position: relative;
 }
 
@@ -398,7 +420,7 @@ h4{
 }
 
 .subgroup2 img{
-    width: 150px;
+    width: 50%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -406,9 +428,8 @@ h4{
 }
 
 .subgroup3{
-    width: calc(100% / 2);
+    width: 50%;
     background-color: dodgerblue;
-    height: 250px;
     position: relative;
 }
 
@@ -418,7 +439,7 @@ h4{
 }
 
 .subgroup3 img{
-    width: 150px;
+    width: 50%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -426,9 +447,8 @@ h4{
 }
 
 .subgroup4{
-    width: calc(100% / 2);
+    width: 50%;
     background-color: #cf1717;
-    height: 250px;
     position: relative;
 }
 
@@ -438,7 +458,7 @@ h4{
 }
 
 .subgroup4 img{
-    width: 150px;
+    width: 50%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -448,6 +468,7 @@ h4{
 .group2{
     background-color: whitesmoke;
     width: calc(100% / 3);
+    height: calc(100vw / 3);
     padding: 50px;
 }
 
@@ -468,13 +489,13 @@ h4{
 .group3{
     display: flex;
     width: calc(100% / 3);
+    height: calc(100vw / 3);
     flex-wrap: wrap;
 }
 
 .subgroup5{
-    width: calc(100% / 2);
+    width: 50%;
     background-color: red;
-    height: 250px;
     position: relative;
 }
 
@@ -484,7 +505,7 @@ h4{
 }
 
 .subgroup5 img{
-    width: 150px;
+    width: 50%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -492,9 +513,8 @@ h4{
 }
 
 .subgroup6{
-    width: calc(100% / 2);
+    width: 50%;
     background-color: lightblue;
-    height: 250px;
     position: relative;
 }
 
@@ -504,7 +524,7 @@ h4{
 }
 
 .subgroup6 img{
-    width: 150px;
+    width: 50%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -512,9 +532,8 @@ h4{
 }
 
 .subgroup7{
-    width: calc(100% / 2);
+    width: 50%;
     background-color: blue;
-    height: 250px;
     position: relative;
 }
 
@@ -524,7 +543,7 @@ h4{
 }
 
 .subgroup7 img{
-    width: 150px;
+    width: 50%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -532,9 +551,8 @@ h4{
 }
 
 .subgroup8{
-    width: calc(100% / 2);
+    width: 50%;
     background-color: yellow;
-    height: 250px;
     position: relative;
 }
 
@@ -544,7 +562,7 @@ h4{
 }
 
 .subgroup8 img{
-    width: 150px;
+    width: 50%;
     position: absolute;
     left: 50%;
     top: 50%;
