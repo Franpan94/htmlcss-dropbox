@@ -311,6 +311,7 @@ header{
 .cards{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .card{
@@ -318,7 +319,7 @@ header{
     margin-top: 40px;
 }
 
-.singolo{
+.single{
     margin: auto;
     padding: 10px;
     width: 95%;
@@ -413,7 +414,7 @@ h4{
 }
 
 .bigteam{
-    width: 630px;
+    width: 690px;
     border: 1px solid grey;
     margin-left: 5px;
     margin-top: 40px;
@@ -440,7 +441,7 @@ h4{
 .container-flex{
     display: flex;
     border: 1px solid grey;
-    width: 630px;
+    width: 690px;
     margin-left: 5px;
 }
 
@@ -500,9 +501,8 @@ h4{
 }
 
 .bigfeature{
-    width: calc(100% / 3 -40px);
     display: flex;
-    justify-content: center; 
+    justify-content: space-between; 
     flex-wrap: wrap;
 }
 
@@ -511,7 +511,7 @@ h4{
 }
 
 .feature p{
-    font-size: 12px;
+    font-size: 15px;
     margin-top: 20px;
 }
 
@@ -545,6 +545,7 @@ h4{
     width: 50%;
     background-color: #88eb95;
     position: relative;
+    height: 50%;
 }
 
 .subgroup1:hover{
@@ -564,6 +565,7 @@ h4{
     width: 50%;
     background-color: #700820;
     position: relative;
+    height: 50%;
 }
 
 .subgroup2:hover{
@@ -583,6 +585,7 @@ h4{
     width: 50%;
     background-color: dodgerblue;
     position: relative;
+    height: 50%;
 }
 
 .subgroup3:hover{
@@ -602,6 +605,7 @@ h4{
     width: 50%;
     background-color: #cf1717;
     position: relative;
+    height: 50%;
 }
 
 .subgroup4:hover{
@@ -649,6 +653,7 @@ h4{
     width: 50%;
     background-color: red;
     position: relative;
+    height: 50%;
 }
 
 .subgroup5:hover{
@@ -668,6 +673,7 @@ h4{
     width: 50%;
     background-color: lightblue;
     position: relative;
+    height: 50%;
 }
 
 .subgroup6:hover{
@@ -687,6 +693,7 @@ h4{
     width: 50%;
     background-color: blue;
     position: relative;
+    height: 50%;
 }
 
 .subgroup7:hover{
@@ -706,6 +713,7 @@ h4{
     width: 50%;
     background-color: yellow;
     position: relative;
+    height: 50%;
 }
 
 .subgroup8:hover{
