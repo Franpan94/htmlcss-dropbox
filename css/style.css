@@ -44,7 +44,7 @@ header{
 }
 
 .logo2:hover .drop{
-    padding-top: 75px;
+    padding-top: 45px;
 }
 
 .logo2 img{
@@ -57,7 +57,7 @@ header{
 
 .logo2:hover img{
     display: block;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 .logo3 .drop{
@@ -68,7 +68,7 @@ header{
 }
 
 .logo3:hover .drop{
-    padding-top: 70px;
+    padding-top: 75px;
 }
 
 .logo3 img{
@@ -83,13 +83,135 @@ header{
 
 .logo3:hover img{
     display: block;
-    padding-top: 50px;
+    padding-top: 20px;
+}
+
+.logo4 .drop{
+    cursor: pointer;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo4:hover .drop{
+    padding-top: 100px;
+}
+
+.logo4 img{
+    display: none;
+    background-color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+    z-index: 1;
+    padding: 5px;
+    width: 100px;
+}
+
+.logo4:hover img{
+    display: block;
+    padding-top: 20px;
+}
+
+.start{
+    display: flex;
+    align-items: center;
+}
+
+.logo5 .drop{
+    cursor: pointer;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo5:hover .drop{
+    padding-top: 75px;
+}
+
+.logo5 img{
+    display: none;
+    background-color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+    z-index: 1;
+    padding: 5px;
+    width: 70px;
+}
+
+.logo5:hover img{
+    display: block;
+    padding-top: 20px;
+}
+
+.logo6 .drop{
+    cursor: pointer;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo6:hover .drop{
+    padding-top: 150px;
+}
+
+.logo6 img{
+    display: none;
+    background-color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+    z-index: 1;
+    padding: 5px;
+    width: 180px;
+}
+
+.logo6:hover img{
+    display: block;
+}
+
+.logo7 .drop{
+    cursor: pointer;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo7:hover .drop{
+    padding-top: 135px;
+    text-align: center;
+}
+
+.drop div{
+    display: none;
+    background-color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+    z-index: 1;
+    padding: 5px;
+    width: 200px;
+    text-align: left;
+}
+
+.drop:hover .name{
+    display: block;
+    padding-top: 100px;
+    background-color: whitesmoke;
+}
+
+.drop:hover .password{
+    display: block;
+    background-color: whitesmoke;
 }
 
 .link{
     text-decoration: none;
     color: black;
     margin: 10px;
+}
+
+.drop:hover .name{
+    display: block;
+    padding-top: 30px;
+    background-color: whitesmoke;
 }
 
 .button{
@@ -341,11 +463,11 @@ h4{
     justify-content: center;
 }
 
-.partner{
+#partner{
     margin-left: 50px;
 }
 
-.partner img{
+#partner img{
     width: 350px;
 }
 
@@ -371,7 +493,7 @@ h4{
     margin-top: 10px;
 }
 
-.container-three{
+#container-three{
     padding-top: 100px;
     width: 900px;
     margin: auto;
